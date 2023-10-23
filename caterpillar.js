@@ -19,15 +19,15 @@ $(function() {
         "<li>They have unique and intricate wing patterns.</li>" +
         "<li>Butterflies undergo a remarkable metamorphosis from caterpillar to butterfly.</li>" +
         "</ul>";
-    $("body").append(facts);
+        $("body").append(facts);
   
       // Step 3f: Modify the link and link text
-    $("a[href='https://en.wikipedia.org/wiki/Catepillar']")
-    .attr("href", "https://en.wikipedia.org/wiki/Butterfly") // Update the href attribute
-    .text("Butterfly"); // Update the link text
+        $("a[href='https://en.wikipedia.org/wiki/Catepillar']")
+        .attr("href", "https://en.wikipedia.org/wiki/Butterfly") // Update the href attribute
+        .text("Butterfly"); // Update the link text
   
       // Step 3g: Add class to the paragraph
-      $("p:last").addClass("result");
+        $("p:last").addClass("result");
   
       // Show the "Restore" button and hide the "Metamorphose" button
       $('#restore').show();
